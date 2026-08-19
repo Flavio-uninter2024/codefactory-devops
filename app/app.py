@@ -18,6 +18,13 @@ def health():
         "status": "healthy"
     })
 
+@app.route("/info")
+def info():
+    return jsonify({
+        "aplicacao": "CodeFactory DevOps",
+        "versao": "1.0",
+        "ambiente": "desenvolvimento"
+    })
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
