@@ -23,7 +23,7 @@ def info():
     return jsonify({
         "aplicacao": "CodeFactory DevOps",
         "versao": "1.0",
-        "ambiente": "desenvolvimento"
+        "ambiente": "producao"
     })
 
 if __name__ == "__main__":
