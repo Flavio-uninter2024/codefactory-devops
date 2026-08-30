@@ -7,6 +7,7 @@ on:
       - desenvolvimento
       - feature
       - feature-conflito
+
   pull_request:
     branches:
       - main
