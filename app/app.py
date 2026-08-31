@@ -18,6 +18,14 @@ def health():
         "status": "healthy"
     })
 
+@app.route("/info")
+def info():
+    return jsonify({
+        "aplicacao": "CodeFactory DevOps",
+        "versao": "1.0",
+
+        "ambiente": "producao"
+    })
 
 @app.route("/info")
 def info():
