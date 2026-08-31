@@ -7,7 +7,6 @@ on:
       - desenvolvimento
       - feature
       - feature-conflito
-
   pull_request:
     branches:
       - main
@@ -34,4 +33,4 @@ jobs:
 
       - name: Executar testes
         run: |
-  PYTHONPATH=. pytest
+          PYTHONPATH=. pytest
